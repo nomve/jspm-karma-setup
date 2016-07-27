@@ -1,0 +1,29 @@
+{
+  "name": "replacemodulename",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Goran Košutić",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "jspm": "^0.17.0-beta.24",
+    "karma": "^1.1.2",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jspm": "^2.2.0",
+    "karma-mocha": "^1.1.1",
+    "karma-mocha-reporter": "^2.0.4",
+    "mocha": "^2.5.3"
+  },
+  "jspm": {
+    "name": "replacemodulename",
+    "main": "replacemodulename.js",
+    "devDependencies": {
+      "plugin-babel": "npm:systemjs-plugin-babel@^0.0.12"
+    }
+  }
+}
