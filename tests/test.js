@@ -1,7 +1,9 @@
 import tofex from 'tofex';
+import {submodule} from 'tofex/submodule';
+import value from 'tofex/submoduleWithDefault';
 
-describe('test setup', function() {
-    it('should succesfully run', function() {
+describe(`test setup`, function() {
+    it(`should succesfully run`, function() {
         expect(tofex()).to.equal(true);
     });
 
