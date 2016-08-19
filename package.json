@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test",
+    "test": "karma start --single-run",
     "lint": "eslint source tests"
   },
   "author": "Goran Košutić",
