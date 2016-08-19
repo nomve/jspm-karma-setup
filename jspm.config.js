@@ -1,7 +1,7 @@
 SystemJS.config({
   paths: {
     "npm:": "jspm_packages/npm/",
-    "replacemodulename/": "source/"
+    "tofex/": "src/magento/skin/frontend/dbl/default/tofex/"
   },
   devConfig: {
     "map": {
@@ -10,8 +10,8 @@ SystemJS.config({
   },
   transpiler: "plugin-babel",
   packages: {
-    "replacemodulename": {
-      "main": "replacemodulename.js",
+    "tofex": {
+      "main": "tofex.js",
       "meta": {
         "*.js": {
           "loader": "plugin-babel"

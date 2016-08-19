@@ -1,11 +1,8 @@
-import replacemodulename from 'replacemodulename';
-import {submodule} from 'replacemodulename/submodule';
-import value from 'replacemodulename/submoduleWithDefault';
+import tofex from 'tofex';
 
-describe(`test setup`, function() {
-
-    it(`should succesfully run`, function() {
-        expect(replacemodulename()).to.equal(true);
+describe('test setup', function() {
+    it('should succesfully run', function() {
+        expect(tofex()).to.equal(true);
     });
 
     it(`should include sinon in tests`, function() {

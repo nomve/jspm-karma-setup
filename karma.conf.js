@@ -21,7 +21,7 @@ module.exports = function(config) {
       config: 'jspm.config.js',
       browser: 'jspm.karma.js',
       loadFiles: [
-        'source/**/*.js',
+        'src/**/*.js',
         'tests/**/*.js'
       ]
     },
